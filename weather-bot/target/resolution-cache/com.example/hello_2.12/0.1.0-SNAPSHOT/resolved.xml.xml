@@ -4,7 +4,7 @@
 		module="hello_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20170204103149"
+		publication="20170204114040"
 	>
 		<description>
 		Hello
@@ -35,5 +35,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="test->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.12" rev="3.5.0" conf="compile->default(compile)"/>
+		<dependency org="org.skinny-framework" name="skinny-http-client_2.12" rev="2.3.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
