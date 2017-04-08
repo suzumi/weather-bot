@@ -1,0 +1,17 @@
+run 1 2
+~ complile
+run
+run | jq
+exit
+compile ~
+~ compile
+~ run
+HTTP.get("http://weather.livedoor.com/forecast/webservice/json/v1", "city" -> 130010)
+import org.json4s._
+import org.json4s.native.JsonMethods._
+import org.json4s._
+scala
+import org.json4s._
+exit
+rub
+run
