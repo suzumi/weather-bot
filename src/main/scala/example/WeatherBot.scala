@@ -9,7 +9,7 @@ import java.io.{ByteArrayInputStream, ByteArrayOutputStream, ObjectInputStream, 
 
 
 
-object Hello {
+object WeatherBot {
 
   implicit val formats = DefaultFormats
 

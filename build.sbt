@@ -1,6 +1,7 @@
 import Dependencies._
 
 lazy val root = (project in file(".")).
+  enablePlugins(JavaAppPackaging).
   settings(
     inThisBuild(List(
       organization := "com.example",
@@ -8,7 +9,7 @@ lazy val root = (project in file(".")).
       version      := "0.1.0-SNAPSHOT"
     )),
 
-    name := "Hello",
+    name := "WeatherBot",
 
     libraryDependencies ++= Seq(
       scalaTest % Test,
